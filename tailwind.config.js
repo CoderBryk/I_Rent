@@ -9,6 +9,12 @@ module.exports = {
     },
     colors: {
       primary: '#10283F',
+      searchbg: '#10283f59',
+      orange: '#C34D0A',
+      white: '#ffffff',
+      f_orange: '#C80E0E',
+      links: '#CEBDBD',
+      form_bg: '#F4FBFF',
     },
     extend: {},
   },
