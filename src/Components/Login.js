@@ -27,7 +27,7 @@ function Login() {
             <h3 className='font-normal pb-2'>Password</h3>
             <input  type="password" value={input2} onChange={e => setInput2(e.target.value)} className='w-full py-[3vh] pl-[1vh]  h-[5vh] mb-4 rounded-[10px] shadow [1px 4px 54px 13px rgba(0, 0, 0, 0.08)] bg-white' placeholder='Enter your password' />
             <a className='text-center text-orange flex justify-center font-bold py-5 hover:underline' href='#dd'>Forgot Password?</a>
-            <br />{error && <p>{error}</p>}<br />
+            {error && <p className='text-center'>{error}</p>}
             <div className='flex justify-between text-sm font-bold'>
             <Link to='signup/'><button className='bg-white rounded-[10px] text-primary px-4 py-2 mt-[2vh] flex items-center shadow [1px 4px 54px 13px rgba(0, 0, 0, 0.08)] '>Create account</button></Link>
                 <button type='submit' className='bg-primary rounded-[10px] text-white px-4 py-2 mt-[2vh] flex items-center'>Login Now</button>
