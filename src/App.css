@@ -14,10 +14,16 @@ body{
 span{
     display: none;
 }
-a > .MuiSvgIcon-root, li > .MuiSvgIcon-root{
+li > a > .MuiSvgIcon-root{
     font-size: 16px !important;
     margin: 0 !important;
     color: #CEBDBD !important;
+}
+a > .MuiSvgIcon-root{
+    font-size: 30px !important;
+    margin: 0 !important;
+    color: #CEBDBD !important;
+    margin: 0 2px !important;
 }
 li{
     padding: 3px 0;

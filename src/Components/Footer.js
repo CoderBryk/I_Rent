@@ -29,24 +29,24 @@ function Footer() {
             <ul className='text-links'>
                 <li className='text-sm font-bold text-white'>Contact Us</li>
                 <li><a href='https://goo.gl/maps/EMqWXYymeAekWmyt7' alt='link to map' target='_blank' rel='noreferrer'><LocationOnIcon />34, Nwaniba Uyo</a></li>
-                <li><MailIcon />irent@gmail.com</li>
-                <li><a href='tel:+2347033333333'><PhoneIcon />+2347033333333</a></li>
+                <li><a href='https://mail.google.com/mail/u/0/#inbox' target='_blank' rel='noreferrer'><MailIcon />irent@gmail.com</a></li>
+                <li><a href='tel:+2347033333333' target='_blank' rel='noreferrer'  ><PhoneIcon />+2347033333333</a></li>
             </ul>
         </div>
     </div>
      <div className='flex items-center justify-between pt-5'>
         <div className='items-center flex'>
             <input placeholder=' Enter your email' className='w-[150px] px-2 h-[35px] rounded-l-[10px] text-f_orange' />
-            <button type='submit' className='bg-f_orange rounded-r-[10px] px-3 h-[35px] text-sm font-bold'>Subscribe</button>
+            <button type='submit' className='bg-f_orange rounded-r-[10px] px-3 h-[35px] items-center text-sm font-bold'>Subscribe</button>
         </div>
         <div>
-            <TwitterIcon />
-            <InstagramIcon />
-            <FacebookIcon />
+            <a href='https://twitter.com' target='_blank' rel='noreferrer'  alt='twitter icon'><TwitterIcon /></a>
+            <a href='https://instagram.com' target='_blank' rel='noreferrer'  alt='instagram icon'><InstagramIcon /></a>
+            <a href='https://facebook.com' target='_blank' rel='noreferrer' alt='facebook icon'><FacebookIcon /></a>
         </div>
      </div>   
     </div>
   )
 }
 
-export default Footer
+export default Footer 
