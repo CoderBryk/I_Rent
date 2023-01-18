@@ -10,13 +10,17 @@ import { Link }  from "react-router-dom";
  
 function Footer() {
   return (
-    <div className='bg-primary text-white px-3 py-5' >
-    <div className='flex justify-between text-xs'>
-        <div className='max-w-[28%]'>
+    <div className='bg-primary text-white px-3 py-5 lg:items-center lg:flex' >
+    <div className='flex justify-between lg:justify-evenly text-xs'>
+        <div className='max-w-[28%] lg:w-[40%]'>
             <Link to='/'><img className='max-w-[70px]' src={logo} alt="brand logo" /></Link>
-            <h3 className='text-links'>At IRent we will get you the best house to suit you<span classname ='hidden'>r preferences, location and requirements. Choose IRent, choose quality.</span></h3>
+            <h3 className='text-links'>At IRent we will get you the best house to suit you<span classname='hidden lg:flex'>r preferences, location and requirements. Choose IRent, choose quality.</span></h3>
+            <div className='items-center hidden lg:flex'>
+                <input placeholder=' Enter your email' className='w-[150px] px-2 h-[35px] rounded-l-[10px] text-f_orange' />
+                <button type='submit' className='bg-f_orange rounded-r-[10px] px-3 h-[35px] items-center text-sm font-bold '>Subscribe</button>
+            </div>
         </div>
-        <div className='w-[37%]'>
+        <div className='w-[37%] lg:w-[20%]'>
             <ul className='text-links'>
                 <li className='text-sm font-bold text-white'>Quick Links</li>
                 <li>Properties</li>
@@ -35,9 +39,9 @@ function Footer() {
         </div>
     </div>
      <div className='flex items-center justify-between pt-5'>
-        <div className='items-center flex'>
+        <div className='items-center flex lg:hidden'>
             <input placeholder=' Enter your email' className='w-[150px] px-2 h-[35px] rounded-l-[10px] text-f_orange' />
-            <button type='submit' className='bg-f_orange rounded-r-[10px] px-3 h-[35px] items-center text-sm font-bold'>Subscribe</button>
+            <button type='submit' className='bg-f_orange rounded-r-[10px] px-3 h-[35px] items-center text-sm font-bold '>Subscribe</button>
         </div>
         <div>
             <a href='https://twitter.com' target='_blank' rel='noreferrer'  alt='twitter icon'><TwitterIcon /></a>
