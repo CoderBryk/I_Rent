@@ -33,7 +33,7 @@ function Login() {
             <a className='text-center text-orange flex justify-center font-bold py-5 hover:underline' href='#dd'>Forgot Password?</a>
             {error && <p className='text-center'>{error}</p>}
             <div className='flex justify-between text-sm font-bold'>
-            <Link to='signup/'><button className='bg-white rounded-[10px] text-primary px-4 py-2 mt-[2vh] flex items-center shadow [1px 4px 54px 13px rgba(0, 0, 0, 0.08)] '>Create account</button></Link>
+            <Link to ='signup/'><button className='bg-white rounded-[10px] text-primary px-4 py-2 mt-[2vh] flex items-center shadow [1px 4px 54px 13px rgba(0, 0, 0, 0.08)] '>Create account</button></Link>
                 <button type='submit' className='bg-primary rounded-[10px] text-white px-4 py-2 mt-[2vh] flex items-center'>Login Now</button>
             </div>
             </form>

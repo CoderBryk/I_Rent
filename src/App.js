@@ -5,11 +5,11 @@ import Footer from './Components/Footer'
 import Contact from './Components/Contact'
 import Home from './Components/Home'
 import Terms from './Components/Terms'
-import Signup from './Components/Signup'
 import Login from './Components/Login'
 import PrivacyPolicy from './Components/PrivacyPolicy'
 import Properties from './Components/Properties'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Signup from './Components/Signup'
 
 function App() {
   return (
@@ -18,11 +18,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="login/" element={<Login />} />
-        <Route path="signup/" element={<Signup />} />
         <Route path="contact_us/" element={<Contact />} />
         <Route path="terms_and_conditions/" element={<Terms />} />
         <Route path="privacy_policy/" element={<PrivacyPolicy />} />
         <Route path="properties/" element={<Properties />} />
+        <Route path='/signup' element={<Signup />} />
       </Routes>
       <Footer />
     </BrowserRouter>
