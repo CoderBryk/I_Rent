@@ -21,7 +21,11 @@ function Login() {
     <div style={{ backgroundImage: `url(${background})` }} className='py-[60px] px-7 pb-[90px]'>
         <div className='bg-form_bg rounded-[10px] px-8 pt-5 pb-10 mt-10 text-primary'> 
             <h1 className='font-bold text-xl text-center pt-5 pb-12'>WELCOME BACK</h1>
-            <form onSubmit={handleSubmit}>
+            <form onKeyDown={(e) => {
+              if (e.keyCode === 13) {
+                this.handleSubmit();
+              }
+            }} onSubmit={handleSubmit}>
             <h3 className='font-normal pb-2'>Email</h3>
             <input  type="email" value={input1} onChange={e => setInput1(e.target.value)} placeholder='Enter your email' className='w-full py-[3vh] pl-[1vh]  h-[5vh] mb-4 rounded-[10px] shadow [1px 4px 54px 13px rgba(0, 0, 0, 0.08)] bg-white'/>
             <h3 className='font-normal pb-2'>Password</h3>
