@@ -23,7 +23,7 @@ function Footer() {
         <div className='w-[37%] lg:w-[20%]'>
             <ul className='text-links'>
                 <li className='text-sm font-bold text-white'>Quick Links</li>
-                <li>Properties</li>
+                <Link to='properties/'><li>Properties</li></Link>
                 <Link to='terms_and_conditions/'><li>Terms and Conditions</li></Link>
                 <Link to='privacy_policy/'><li>Privacy Policy</li></Link>
                 <Link to='contact_us/'><li>Contact Us</li></Link>
