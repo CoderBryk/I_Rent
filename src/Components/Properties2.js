@@ -4,7 +4,7 @@ import backdrop from '../Assets/desktopbg.png'
 function Properties2() {
   return (
     <div  style={{ backgroundImage: `url(${backdrop})` }} className='px-[8%] py-[5%] flex justify-center'>
-        <div className='bg-[aliceblue] rounded-[20px] w-[90%] px-[3%] py-[2%]'>
+        <div className='bg-[aliceblue] rounded-[20px] w-[88%] px-[3%] py-[2%]'>
             <h1 className='text-right text-3xl text-primary font-bold' >Step 2 of 2</h1>
                 <div className='text-center py-[2%] align-left px-[10%]'>
                     <h1 className='font-bold text-3xl text-primary pb-10'>More Details</h1>
