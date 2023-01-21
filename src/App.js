@@ -8,7 +8,7 @@ import Terms from './Components/Terms'
 import Login from './Components/Login'
 import PrivacyPolicy from './Components/PrivacyPolicy'
 import Properties from './Components/Properties'
-import Properties2 from './Components/Properties2'
+import Properties2 from './Components/Properties2.js'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from './Components/Signup'
 import Signup1 from './Components/Signup1'
@@ -27,7 +27,7 @@ function App() {
         <Route path='/login/signup' element={<Signup />} />
         <Route path="finish_signup/" element={<Signup1 />} />
         <Route path="properties/" element={<Properties />} />
-        <Route path="properties2/" element={<Properties2 />} />
+        <Route path="list_property/" element={<Properties2 />} />
       </Routes>
       <Footer />
     </BrowserRouter>

@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 function Properties() {
   return (
-    <div  style={{ backgroundImage: `url(${backdrop})` }}  className='px-[8%] py-[5%] flex justify-center'>
+    <div  style={{ backgroundImage: `url(${backdrop})` }}  className='bg-[aliceblue] px-[8%] py-[5%] flex justify-center'>
         <div className='bg-white rounded-[20px] w-full px-[3%] py-[2%]'>
             <h1 className='text-right text-3xl text-primary font-bold' >Step 1 of 2</h1>
             <div className='text-center py-[5%] align-middle'>
