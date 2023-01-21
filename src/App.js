@@ -10,6 +10,7 @@ import PrivacyPolicy from './Components/PrivacyPolicy'
 import Properties from './Components/Properties'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Signup from './Components/Signup'
+import Signup1 from './Components/Signup1'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path="privacy_policy/" element={<PrivacyPolicy />} />
         <Route path="properties/" element={<Properties />} />
         <Route path='/login/signup' element={<Signup />} />
+        <Route path="finish_signup/" element={<Signup1 />} />
       </Routes>
       <Footer />
     </BrowserRouter>

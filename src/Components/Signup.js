@@ -40,9 +40,9 @@ function Signup() {
                 <h3 className='text-sm'><input type='radio' className='mr-2'/>I have read and accepted<Link to='/terms_and_conditions' className='text-orange'> Terms</Link> and<Link to='/terms_and_conditions' className='text-orange'> Conditions</Link></h3>
                 </div>               
                 <div className= 'flex pt-[5%] justify-around'>
-                  <button className='bg-primary rounded-[10px] text-white px-5 py-2 text-[12px]'>
+                  <Link to='/finish_signup'><button className='bg-primary rounded-[10px] text-white px-5 py-2 text-[12px]'>
                     Proceed
-                  </button>
+                  </button></Link>
                   <button className='bg-white rounded-[10px] text-primary px-5  text-[12px] py-2 shadow [1px 4px 54px 13px rgba(0, 0, 0, 0.08)]'><Link to='/login'>I already have an account</Link></button>
                 </div>
         </div>
