@@ -5,7 +5,7 @@ function SIgnup1() {
   return (
     <div className='flex'>
       <div className='flex-[0]'> 
-        <img className='h-[122vh] min-w-[40vw]' src={ forms } alt=' a building' />
+        <img className='h-[124vh] min-w-[40vw]' src={ forms } alt=' a building' />
       </div>
       <div>
         <div className='px-[15%] py-[8%] bg-[aliceblue] justify-center text-center flex-[1] min-w-[60vw] h-full'>
