@@ -22,7 +22,7 @@ function App() {
         <Route path="terms_and_conditions/" element={<Terms />} />
         <Route path="privacy_policy/" element={<PrivacyPolicy />} />
         <Route path="properties/" element={<Properties />} />
-        <Route path='/signup' element={<Signup />} />
+        <Route path='/login/signup' element={<Signup />} />
       </Routes>
       <Footer />
     </BrowserRouter>

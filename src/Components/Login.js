@@ -19,7 +19,7 @@ function Login() {
 
   return (
     <div style={{ backgroundImage: `url(${background})` }} className='py-[60px] px-7 pb-[90px]'>
-        <div className='bg-form_bg rounded-[10px] px-8 pt-5 pb-10 mt-10 text-primary'> 
+        <div className='bg-form_bg rounded-[18px] px-8 pt-5 pb-10 mt-10 text-primary'> 
             <h1 className='font-bold text-xl text-center pt-5 pb-12'>WELCOME BACK</h1>
             <form onKeyDown={(e) => {
               if (e.keyCode === 13) {

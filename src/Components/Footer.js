@@ -40,7 +40,7 @@ function Footer() {
     </div>
      <div className='flex items-center justify-between pt-5'>
         <div className='items-center flex lg:hidden'>
-            <input placeholder=' Enter your email' className='w-[150px] px-2 h-[35px] rounded-l-[10px] text-f_orange' />
+            <input placeholder=' Enter your email' className='w-[150px] px-2 text-sm h-[35px] rounded-l-[10px] text-f_orange' />
             <button type='submit' className='bg-f_orange rounded-r-[10px] px-3 h-[35px] items-center text-sm font-bold '>Subscribe</button>
         </div>
         <div>

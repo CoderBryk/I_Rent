@@ -4,7 +4,7 @@ import '../Stylesheets/Home.css'
 
 function Props({image, type, price, title, location, width, dimensions, description}) {
   return (
-    <div className='max-w-[47%] bg-white rounded-[10px] pb-2 mb-6'>
+    <div className='max-w-[47%] lg:max-w-[28%] bg-white rounded-[10px] pb-2 mb-6'>
       <div className='flex justify-around absolute pt-[115px] w-[47%]'>
         <h4 className='bg-primary rounded-[10px] px-3 py-[2px]  text-white text-[12px]'>{ type }</h4>
         <h3 className='bg-white text-primary rounded-[10px] px-3 py-[2px] text-[12px]'>${ price }</h3>
@@ -12,7 +12,7 @@ function Props({image, type, price, title, location, width, dimensions, descript
         <img className='max-w-[45vw]' src={ image } alt="Building" onError={(e)=>{e.target.onerror=null; e.target.src="../Assets/house.png"}} />
         <h3 className='text-[11px] font-bold pt-5 text-center'>{ title }</h3>
         <h3 className='text-[10px] pb-2 font-bold text-center'><LocationOn />{ location }</h3>
-        <div className='flex text-[#9A9A9A] justify-between'>
+        <div className='flex text-[#9A9A9A] justify-between px-3'>
           <h4 className='text-[10px] flex'><Equalizer />{ width } </h4>
           <h4 className='text-[10px] flex'><LegendToggle />{ dimensions }</h4>
           <h4 className='text-[10px] flex'><Hotel />{ description }</h4>
