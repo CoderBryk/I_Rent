@@ -12,7 +12,7 @@ function Props({image, type, price, title, location, width, dimensions, descript
         <img className='max-w-full lg:w-full' src={ image } alt="Building" onError={(e)=>{e.target.onerror=null; e.target.src="../Assets/house.png"}} />
         <h3 className='text-[11px] lg:text-base font-bold pt-5 text-center'>{ title }</h3>
         <h3 className='text-[10px] lg:text-sm pb-2 font-bold text-center'><LocationOn />{ location }</h3>
-        <div className='flex text-[rgb(154,154,154)] justify-between px-3 lg:px-12'>
+        <div className='flex text-[rgb(154,154,154)] justify-between px-3 lg:px-7'>
           <h4 className='text-[10px] lg:text-xs flex'><Equalizer />{ width } </h4>
           <h4 className='text-[10px] lg:text-xs flex'><LegendToggle />{ dimensions }</h4>
           <h4 className='text-[10px] lg:text-xs flex'><Hotel />{ description }</h4>
