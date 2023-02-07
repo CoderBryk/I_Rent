@@ -18,7 +18,7 @@ function HomeProps() {
             </div>
         </div>
         <div className='blue'>
-            <div className='flex justify-between items-center pt-[5%] pb-[5%] lg:pb-7 px-[5%]'>
+            <div className='flex justify-between items-center pt-[5%] pb-[5%] lg:pb-7 px-[5%] text-white'>
                 <h1 className='text-base lg:text-3xl font-bold'>Hot Self Contains 🔥</h1>
                 <h3 className='text-sm lg:text-xl font-semibold'>Load More</h3>
             </div>

@@ -18,7 +18,7 @@ function Navbar() {
         </div>
         <div className='bg-searchbg lg:justify-around hidden h-[50px] px-5 py-2 text-white w-full lg:flex lg:w-[45%]'>
           <input className='w-[220px] lg:w-[70%] rounded-[10px]'></input>
-          <Link to='properties/'><button className='bg-orange rounded-[10px] px-3 lg:px-5 text-sm font-bold '>List Property</button></Link>
+          <Link to='properties/'><button className='bg-orange py-3 rounded-[10px] px-3 lg:px-5 text-sm font-bold '>List Property</button></Link>
         </div>
         <div className='flex items-center'>
           <NotificationsIcon />
