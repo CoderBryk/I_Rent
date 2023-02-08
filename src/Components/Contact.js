@@ -22,10 +22,10 @@ function Contact() {
         <div className='bg-primary text-white rounded-b-[10px] pb-5'>
             <h1 className='font-bold text-xl text-center py-5'>Contact infomation</h1>
             <div className='px-2'>
-                <ul className='text-sm flex flex-wrap justify-center'>
-                    <li className='px-1'><h3><LocationOnIcon />34, Nwaniba Uyo</h3></li>
-                    <li className='px-1'><h3><MailIcon />irent@gmail.com</h3></li>
-                    <li className='px-1 py-4'><h3><PhoneIcon />+2347896743888</h3></li>
+                <ul className='text-sm flex flex-wrap justify-center text-white'>
+                    <li className='px-1'><h2><LocationOnIcon />34, Nwaniba Uyo</h2></li>
+                    <li className='px-1'><h2><MailIcon />irent@gmail.com</h2></li>
+                    <li className='px-1 py-4'><h2><PhoneIcon />+2347896743888</h2></li>
                 </ul>
                 
             </div>
