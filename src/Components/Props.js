@@ -5,7 +5,7 @@ import '../Stylesheets/Home.css'
 function Props({image, type, price, title, location, width, dimensions, description}) {
   return (
     <div className='max-w-[47%] lg:w-[23%] bg-white rounded-[10px] pb-2 mb-6 shadow-xl'>
-      <div className='flex lg:justify-between text-[12px] lg:text-[15px] lg:pl-[1%] lg:pr-[5%] justify-around absolute pt-[115px] lg:pt-[193px] w-[47%] lg:items-left'>
+      <div className='flex lg:justify-between text-[12px] lg:text-[15px] lg:pl-[2%] lg:pr-[6%] justify-around absolute pt-[130px] lg:pt-[160px] w-[47%] lg:items-left'>
         <h4 className='bg-primary rounded-[9px] px-3 py-[2px] text-white '>{ type }</h4>
         <h3 className='bg-white text-primary rounded-[9px] px-3 py-[2px]'>${ price }</h3>
       </div>

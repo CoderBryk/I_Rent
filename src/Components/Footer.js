@@ -12,7 +12,7 @@ function Footer() {
   return (
     <div className='bg-primary text-white px-3 py-5 lg:items-center lg:flex' >
     <div className='flex justify-between lg:justify-evenly text-xs'>
-        <div className='max-w-[28%] lg:w-[40%]'>
+        <div className='max-w-[28%] pt-1 lg:w-[40%]'>
             <Link to='/'><img className='max-w-[70px]' src={logo} alt="brand logo" /></Link>
             <h3 className='text-links'>At IRent we will get you the best house to suit you<span classname='hidden lg:flex'>r preferences, location and requirements. Choose IRent, choose quality.</span></h3>
             <div className='items-center hidden lg:flex'>
