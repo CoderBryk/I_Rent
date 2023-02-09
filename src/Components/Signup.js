@@ -25,7 +25,7 @@ function Signup() {
         backgroundImage: `url(${isDesktop ? 'aliceblue' : background })`
       }}  className='px-[7%] lg:px-[15%] pt-[80px] lg:pt-0 pb-[8%] bg-[aliceblue] justify-center text-center flex-[1]'>
       <div className=' bg-[aliceblue] lg:bg-none px-6 pb-9 rounded-[18px] lg;rounded-0'>
-      <h1 className='font-bold text-primary text-xl lg:text-3xl leading-[45px] pt-5 pb-6 justify-center'>Welcome To IRent</h1>
+      <h1 className='font-bold text-primary text-xl lg:text-3xl leading-[45px] pt-5 pb-6 justify-center lg:mt-12'>Welcome To IRent</h1>
         <div className='text-left flex flex-col'>
                 <h1 className='pb-2'>Name</h1>
                 <input type='text' placeholder='Enter your name' className='w-full py-[3vh] pl-[2vw] lg:pl-[3vh]  h-[5vh] mb-4 rounded-[10px] shadow [1px 4px 54px 13px rgba(0, 0, 0, 0.08)] bg-white'  />

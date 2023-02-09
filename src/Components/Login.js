@@ -34,7 +34,7 @@ function Signup() {
                 </div>      
                 <h3 className='text-sm text-orange py-3'>Forgot password?</h3>
                 <div className= 'flex pt-[5%] justify-around mb-5 '>
-                  <Link to='/finish_signup'><button className='bg-primary rounded-[10px] text-white px-5 py-2 text-[12px]'>
+                  <Link to='/login/signup'><button className='bg-primary rounded-[10px] text-white px-5 py-2 text-[12px]'>
                     Create Account
                   </button></Link>
                   <button className='bg-white rounded-[10px] text-primary px-8  text-[12px] py-2 shadow [1px 4px 54px 13px rgba(0, 0, 0, 0.08)]'><Link to='/login'>Login Now</Link></button>
@@ -45,4 +45,4 @@ function Signup() {
   )
 }
 
-export default Signup
+export default Signup;
